@@ -34,9 +34,9 @@ avb.home = function () {
      * They are used to identify which zone to highlight on the treemap
      */
     var townDepartments = 'dc313bc5',
-        fireDepartment = 'bd2b7e5f',
-        snowRemoval = 'c61196eb',
-        townSchools = 'b5fe5259';
+        fireDepartment = '47c94e40',
+        snowRemoval = '09ddd81a',
+        townSchools = '47b3af92';
 
     /*
     * Main tour, for new users.

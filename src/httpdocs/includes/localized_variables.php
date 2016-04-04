@@ -1,11 +1,11 @@
 <?php
   # Variables used through the site
-  $siteName = "Arlington Visual Budget";
-  $siteURL = "arlingtonvisualbudget.org";
-  $municipalURL = "http://town.arlington.ma.us";
-  $feedbackEmail = "arlington-internal@goinvo.com";
-  $shortName = "Arlington";
-  $longName = "Town of Arlington";
+  $siteName = "Somerville Visual Budget";
+  $siteURL = "somervillema.gov";
+  $municipalURL = "http://somervillema.gov";
+  $feedbackEmail = "somerstat@somervillema.gov";
+  $shortName = "Somerville";
+  $longName = "City of Somerville";
   $state = "Massachusetts";
   $stateAbbreviation = "MA";
   $gaKey = "UA-10273473-12";

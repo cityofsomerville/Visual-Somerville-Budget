@@ -47,7 +47,7 @@ avb.home = function () {
         position: 'right'
     }, {
         selector: '#chart-wrap',
-        text: 'Explore how the town revenues changed over time.',
+        text: 'Explore how the city revenues changed over time.',
         position: 'right'
     }, {
         selector: '#navigation',
@@ -107,21 +107,21 @@ avb.home = function () {
     */
     var snowTour = [{
         selector: '#snow',
-        text: 'Snow removal has a relatively small cost compared to other departments',
+        text: 'Snow removal has a relatively small cost compared to the overall budget',
         position: 'top',
         before: function () {
             $('g[nodeid="' + snowRemoval + '"]').find('div').first().attr('id', 'snow');
         }
     }, {
         selector: '#chart',
-        text: 'Check how the snow removal costs oscillate over the years.',
+        text: 'Check how the snow removal costs have varied over the years.',
         position: 'right',
         before: function () {
             avb.navigation.open(snowRemoval, 500);
         }
     }, {
         selector: '#cards',
-        text: 'Here is the basic information about snow removal over the current year.',
+        text: 'Here is the basic information about snow removal for the current year.',
         position: 'right'
     }, {
         selector: '#zoombutton',
@@ -134,14 +134,14 @@ avb.home = function () {
     */
     var schoolTour = [{
         selector: '#school',
-        text: 'Education is an important factor in Town expenses.',
+        text: 'Education is an important factor in City expenses.',
         position: 'bottom',
         before: function () {
             $('g[nodeid="' + townSchools + '"]').find('div').first().attr('id', 'school');
         }
     }, {
         selector: '#cards',
-        text: 'They constitute about 40% of the yearly expenses.',
+        text: 'They constitute about 30% of the yearly expenses.',
         position: 'right',
         before :  function() { avb.navigation.open(townSchools, 500) }
     }, {
